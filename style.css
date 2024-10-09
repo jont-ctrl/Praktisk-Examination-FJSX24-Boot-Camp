@@ -129,6 +129,26 @@ footer {
   font-size: clamp(1rem, 10vw, 6rem);
 }
 
+/* CSS till meny */
+
+.menuMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuGrid {
+  padding: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menuCard {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
 /* Mobile/Tablet layout */
 
 /* Tablet */
