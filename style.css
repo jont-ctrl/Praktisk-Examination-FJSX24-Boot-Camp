@@ -149,6 +149,11 @@ footer {
   border-radius: 2rem;
 }
 
+.priceText {
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
 /* Mobile/Tablet layout */
 
 /* Tablet */
