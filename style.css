@@ -33,6 +33,7 @@ header {
   padding: 1rem;
   background-color: var(--primary);
   color: var(--background);
+  margin-bottom: 3rem;
 }
 
 ul {
