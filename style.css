@@ -66,6 +66,11 @@ main {
   text-align: center;
 }
 
+img {
+  max-width: 75%;
+  border-radius: 1rem;
+}
+
 /* Använder clamp */
 .headerText {
   font-size: clamp(1rem, 10vw, 6rem);
