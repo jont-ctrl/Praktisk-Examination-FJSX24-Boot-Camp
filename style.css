@@ -158,9 +158,13 @@ footer {
 /* Mobile/Tablet layout */
 
 /* Tablet */
-@media (width < 768px) {
+@media (width < 769px) {
   footer {
     grid-template-columns: 1fr 1fr;
+  }
+  .menuGrid {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
   }
 }
 
@@ -172,5 +176,9 @@ footer {
   }
   footer {
     grid-template-columns: 1fr;
+  }
+  .menuGrid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
   }
 }
