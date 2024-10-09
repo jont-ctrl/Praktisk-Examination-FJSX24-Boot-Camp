@@ -19,4 +19,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--background);
   color: var(--text);
+  padding: 0;
+  margin: 0;
+}
+
+/* Flex på headern för göra den responsiv och skap mellanrum imellan */
+header {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  padding: 1rem;
+  color: var(--background);
+}
+
+h1 a {
+  text-decoration: none;
+  color: var(--background);
+}
+
+li a:hover {
+  background-color: var(--secondary);
+  border-radius: 1rem;
 }
