@@ -33,6 +33,7 @@ header {
   padding: 1rem;
   background-color: var(--primary);
   color: var(--background);
+  margin-bottom: 3rem;
 }
 
 ul {
@@ -129,12 +130,41 @@ footer {
   font-size: clamp(1rem, 10vw, 6rem);
 }
 
+/* CSS till meny */
+
+.menuMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuGrid {
+  padding: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menuCard {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.priceText {
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
 /* Mobile/Tablet layout */
 
 /* Tablet */
-@media (width < 768px) {
+@media (width < 769px) {
   footer {
     grid-template-columns: 1fr 1fr;
+  }
+  .menuGrid {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
   }
 }
 
@@ -146,5 +176,9 @@ footer {
   }
   footer {
     grid-template-columns: 1fr;
+  }
+  .menuGrid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
   }
 }
