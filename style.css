@@ -7,13 +7,6 @@
   --secondary: #a5d0d6;
   --accent: #a288f0;
 }
-:root[data-theme='dark'] {
-  --text: #faf5f6;
-  --background: #060404;
-  --primary: #d46e82;
-  --secondary: #2a555b;
-  --accent: #280f76;
-}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
