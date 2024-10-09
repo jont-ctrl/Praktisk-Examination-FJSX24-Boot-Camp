@@ -68,6 +68,10 @@ main {
 
 article {
   width: 75%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 img {
@@ -81,10 +85,12 @@ button {
   background-color: var(--primary);
   color: var(--background);
   border-radius: 3rem;
-  padding: 2rem;
-  margin: 1rem;
-  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
   transition: transform 0.1s;
+  width: 100%;
 }
 
 button:hover {
