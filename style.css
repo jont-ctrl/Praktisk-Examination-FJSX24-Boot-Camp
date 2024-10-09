@@ -127,7 +127,7 @@ footer {
 
 /* Använder clamp */
 .headerText {
-  font-size: clamp(1rem, 10vw, 6rem);
+  font-size: clamp(1rem, 10vw, 5rem);
 }
 
 /* CSS till meny */
