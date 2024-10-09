@@ -75,13 +75,34 @@ img {
   border-radius: 1rem;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  background-color: var(--primary);
+  color: var(--background);
+  border-radius: 3rem;
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  transition: transform 0.1s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
 footer {
   margin-top: 5rem;
   padding: 3rem;
   background-color: var(--text);
   color: var(--background);
   display: grid;
-  justify-items: center;
+  gap: 2rem;
+  justify-items: stretch;
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
