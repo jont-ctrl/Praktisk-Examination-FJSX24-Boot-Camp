@@ -55,7 +55,7 @@ h1 a {
 }
 
 li a:hover {
-  transition: background-color 0.3s;
+  transition: background-color 0.2s;
   background-color: var(--secondary);
   border-radius: 1rem;
 }
@@ -113,6 +113,15 @@ footer {
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.socialIcons {
+  width: 4rem;
+  cursor: pointer;
+}
+
+.socialIcons:hover {
+  transform: scale(1.1);
 }
 
 /* Använder clamp */
