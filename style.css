@@ -88,8 +88,8 @@ button {
   color: var(--background);
   border-radius: 3rem;
   padding: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 1.25rem;
   transition: transform 0.1s;
   width: 100%;
