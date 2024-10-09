@@ -66,9 +66,25 @@ main {
   text-align: center;
 }
 
+article {
+  width: 75%;
+}
+
 img {
-  max-width: 75%;
+  max-width: 100%;
   border-radius: 1rem;
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 3rem;
+  background-color: var(--text);
+  color: var(--background);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* Använder clamp */
@@ -78,9 +94,20 @@ img {
 
 /* Mobile/Tablet layout */
 
+/* Tablet */
+@media (width < 768px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile */
 @media (width < 500px) {
   header {
     flex-direction: column;
     justify-content: center;
+  }
+  footer {
+    grid-template-columns: 1fr;
   }
 }
