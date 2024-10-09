@@ -60,6 +60,17 @@ li a:hover {
   border-radius: 1rem;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Använder clamp */
+.headerText {
+  font-size: clamp(1rem, 10vw, 6rem);
+}
+
 /* Mobile/Tablet layout */
 
 @media (width < 500px) {
